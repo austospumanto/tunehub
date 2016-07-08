@@ -1,0 +1,28 @@
+{
+  "name": "tunehub",
+  "appName": "TuneHub",
+  "version": "0.0.1",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austospumanto/tunehub.git"
+  },
+  "scripts": {
+    "test": "script/test"
+  },
+  "compileCacheDir": "./compile-cache",
+  "compileDirs": [
+    "src"
+  ],
+  "devDependencies": {
+    "electron-compile": "^1.0.0",
+    "electron-compilers": "^1.0.1",
+    "electron-jasmine": "^0.2.0",
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "0.34.2",
+    "electron-rebuild": "^1.0.2"
+  },
+  "dependencies": {
+    "yargs": "^3.16.1"
+  }
+}
