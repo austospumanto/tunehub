@@ -10,14 +10,11 @@ if (argv.test) {
   new TestApplication({specDirectory: './spec'})
 }
 else {
-  if (argv.environment == 'production') {
-    require('electron-compile').initForProduction(path.join(__dirname, 'compile-cache'))
-  }
-  else {
-    console.log('In development mode')
-    require('electron-compile').init()
-  }
+  console.log('In development mode')
+  require('electron-compile').init()
 
   var Application = require('./src/main/application')
   new Application
+
+
 }

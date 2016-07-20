@@ -8,9 +8,8 @@
     "url": "https://github.com/austospumanto/tunehub.git"
   },
   "scripts": {
-    "test": "script/test"
+    "start": "electron ."
   },
-  "compileCacheDir": "./compile-cache",
   "compileDirs": [
     "src"
   ],
@@ -19,10 +18,11 @@
     "electron-compilers": "^1.0.1",
     "electron-jasmine": "^0.2.0",
     "electron-packager": "^5.1.1",
-    "electron-prebuilt": "0.34.2",
+    "electron-prebuilt": "^0.34.5",
     "electron-rebuild": "^1.0.2"
   },
   "dependencies": {
-    "yargs": "^3.16.1"
+    "yargs": "^3.16.1",
+    "youtube-dl": "^1.11.1"
   }
 }
